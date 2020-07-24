@@ -1,0 +1,72 @@
+/*
+ * author: Sunil Venkatesh 
+ */
+
+.bhZ:not(.sun).bym,
+.bhZ:not(.sun).bjB {
+    -webkit-transition-property: none !important;
+    transition-property: none !important;
+	background-color: transparent !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	z-index: none;
+}
+
+.bhZ:not(.sun).bjB {
+	max-width: 72px !important;
+    min-width: 72px !important;
+}
+
+.bhZ:not(.sun) .z0>.L3 {
+	-webkit-border-radius: 28px;
+	border-radius: 28px;
+	font-size: 0;
+	height: 56px;
+	padding: 0;
+	width: 56px
+}
+
+.bhZ:not(.sun) .TK .TO, .bhZ:not(.sun) .n6 .ah9 {
+    -webkit-border-radius: 16px !important;
+    border-radius: 16px !important;
+    margin-left: 20px !important;
+    width: 32px !important;
+}
+
+.bhZ:not(.sun) .TN {
+    padding: 0 6px !important;
+}
+
+.bhZ:not(.sun) .ait {
+	padding-left: 6px !important;
+}
+
+.bhZ:not(.sun) .n4 {
+	padding-left: 0 !important;
+}
+
+.bhZ:not(.sun) .CJ {
+	opacity: 0;
+}
+
+.bhZ:not(.sun) .bsU {
+    -webkit-font-smoothing: auto;
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: .75rem !important;
+    letter-spacing: .3px !important;
+    color: #fff !important;
+    font-weight: normal !important;
+    line-height: 20px !important;
+    min-width: 20px !important;
+    padding: 0 4px !important;
+    right: -8px !important;
+    top: 0 !important;
+	background-color: #c5221f !important;
+    -webkit-border-radius: 10px !important;
+    border-radius: 10px !important;
+    -webkit-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+	pointer-events: none !important;
+    position: absolute !important;
+	text-align: center !important;
+}
