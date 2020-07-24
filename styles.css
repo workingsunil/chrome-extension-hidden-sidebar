@@ -9,7 +9,7 @@
 	background-color: transparent !important;
 	-webkit-box-shadow: none !important;
 	box-shadow: none !important;
-	z-index: none;
+	z-index: none  !important;
 }
 
 .bhZ:not(.sun).bjB {
@@ -20,7 +20,7 @@
 .bhZ:not(.sun) .z0>.L3 {
 	-webkit-border-radius: 28px;
 	border-radius: 28px;
-	font-size: 0;
+	font-size: 0  !important;
 	height: 56px;
 	padding: 0;
 	width: 56px
@@ -46,7 +46,7 @@
 }
 
 .bhZ:not(.sun) .CJ {
-	opacity: 0;
+	opacity: 0  !important;
 }
 
 .bhZ:not(.sun) .bsU {

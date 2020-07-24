@@ -11,13 +11,22 @@ function refresh(f) {
 }
 
 var more_callback = function(){
-  var sidebar = document.getElementsByClassName("nH oy8Mbf nn aeN bhZ bym");
+  var sidebar = document.getElementsByClassName("nH oy8Mbf nn aeN bhZ");
   sidebar[0].classList.toggle("sun");
 }
 
-var main = function() {
-	var more_btn = document.getElementById(":dz");
-	more_btn.addEventListener("click", more_callback);
+var main = function(){
+  var more_btn = document.getElementById(":dz");
+
+  if ( more_btn == undefined ) {
+    more_btn = document.getElementById(":e0");
+  }
+
+  if ( more_btn == undefined ) {
+    alert("couldn't register callback");
+  } 
+
+  more_btn.addEventListener("click", more_callback);
 }
 
 refresh(main);
