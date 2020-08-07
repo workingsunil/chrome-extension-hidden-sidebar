@@ -7,8 +7,8 @@
  
   "content_scripts": [{
 	"css": ["styles.css"],
-    "js": ["content.js"],
-    "matches": ["https://mail.google.com/mail/*"],
+  "js": ["content.js"],
+  "matches": ["https://mail.google.com/mail/*"],
 	"run_at": "document_idle",
 	"all_frames": true
   }]

@@ -3,7 +3,8 @@
  */
 
 function refresh(f) {
-  if( /in/.test(document.readyState) ) {
+  //if( /in/.test(document.readyState) ) {
+  if( document.getElementsByClassName("J-Ke n4 ah9").length == 0 ) {
     setTimeout('refresh(' + f + ')', 10);
   } else {
     f();
@@ -23,7 +24,13 @@ var main = function(){
   }
 
   if ( more_btn == undefined ) {
+    var temp = document.getElementsByClassName("J-Ke n4 ah9");
+    more_btn = temp[0];
+  }
+
+  if ( more_btn == undefined ) {
     alert("couldn't register callback");
+    return;
   } 
 
   more_btn.addEventListener("click", more_callback);
