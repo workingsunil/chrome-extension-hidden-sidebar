@@ -18,12 +18,15 @@
 }
 
 .bhZ:not(.sun) .z0>.L3 {
-	-webkit-border-radius: 28px;
-	border-radius: 28px;
-	font-size: 0  !important;
 	height: 56px;
+	margin-left: 0;
+	width: 56px;
+	min-width: 56px;
+}
+
+.bhZ:not(.sun) .z0>.L3 {
+	font-size: 0  !important;
 	padding: 0;
-	width: 56px
 }
 
 .bhZ:not(.sun) .TK .TO, .bhZ:not(.sun) .n6 .ah9 {
@@ -69,4 +72,8 @@
 	pointer-events: none !important;
     position: absolute !important;
 	text-align: center !important;
+}
+
+.bhZ:not(.sun) .aAv {
+    display: none;
 }
